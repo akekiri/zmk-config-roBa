@@ -10,6 +10,7 @@
 
 &trackball {
     //automouse-layer = <4>;
+
     scroll-layers = <5>;
 
     // arrows {
@@ -80,10 +81,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp L         &kp U         &kp COMMA                 &kp PERIOD                                                      &kp F        &kp W  &kp R  &kp Y  &kp P
-&kp E      &kp I         &kp A         &kp O                     &kp MINUS    &kp SQT                     &kp LEFT_PARENTHESIS   &kp K        &kp T  &kp N  &kp S  &kp H
-&kp J      &kp X         &kp C         &kp V                     &kp GRAVE    &kp COLON                   &kp RIGHT_PARENTHESIS  &kp G        &kp D  &kp M  &kp Z  &kp B
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT BACKSPACE  &lt 2 LANG5  &lt_to_layer_0 3 LANG4      &kp ENTER              &lt 1 SPACE                       &lt 6 DELETE
+&kp P      &kp Y         &kp R         &kp W                      &kp F                                                                &kp PERIOD      &kp COMMA  &kp U    &kp L  &kp Q
+&kp H      &kp S         &kp N         &kp T                      &kp K        &kp TAB                          &kp LEFT_PARENTHESIS   &kp MINUS       &kp O      &lt 4 A  &kp I  &kp E
+&kp B      &kp Z         &kp M         &kp D                      &kp G        &kp SEMICOLON                    &kp RIGHT_PARENTHESIS  &kp APOSTROPHE  &kp V      &kp C    &kp X  &kp J
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_SHIFT LANGUAGE_5  &lt 2 SPACE  &lt_to_layer_0 3 LANGUAGE_1      &kp BACKSPACE          &lt 1 RET                                  &lt 6 DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -120,10 +121,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &kp LC(X)                         &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &kp LC(C)  &kp LC(V)      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &kp LC(Y)  &kp LC(Z)      &trans  &trans  &trans    &mo 5     &trans    &trans
-&trans  &trans  &trans  &trans  &trans     &trans         &trans  &trans                                &trans
+&trans  &trans  &trans  &trans  &kp LC(X)                         &trans  &trans    &mo 5   &trans    &trans
+&trans  &trans  &trans  &trans  &kp LC(C)  &kp LC(V)      &trans  &trans  &mkp MB1  &trans  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &kp LC(Y)  &kp LC(Z)      &trans  &trans  &trans    &mo 5   &trans    &trans
+&trans  &trans  &trans  &trans  &trans     &trans         &trans  &trans                              &trans
             >;
         };
 
